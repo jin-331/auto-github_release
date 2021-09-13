@@ -5,3 +5,4 @@
 ## 上記のサイトだとうまくいかなかった
 
 commitLint のところがうまく動かなかった。。。。
+[ref](https://zenn.dev/ucwork/articles/41cf2f20ecd2a0)
