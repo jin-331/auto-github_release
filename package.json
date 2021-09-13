@@ -16,7 +16,8 @@
     "branches": [
       "master"
     ]
-  }"commitlint": {
+  },
+  "commitlint": {
     "extends": [
       "@commitlint/config-conventional"
     ]
