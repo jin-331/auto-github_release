@@ -35,6 +35,10 @@ husky は commit する時に上記のルールにしたがっていないと怒
 これは `release.yml`に書いてあるとおり。  
 master にマージされたタイミングで走る。
 
+### メジャーリリース方法
+
+`BREAKING CHANGE`を含むコミットを作成して push すればいいらしい。
+
 [ref](https://dev.classmethod.jp/articles/github-actions-semantic-release-sample/)
 
 [ref](https://zenn.dev/ucwork/articles/41cf2f20ecd2a0)
