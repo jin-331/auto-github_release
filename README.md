@@ -27,17 +27,18 @@ semantic-release ではコミットメッセージが重要になる。
 こんな感じで書く。  
 上記の type によって自動でリリースノートにそのコミットがバグなのか軽微な修正なのかを判断して分けて記述してくれる。
 
+husky は commit する時に上記のルールにしたがっていないと怒ってくれる。  
+好きな書き方できないので、めんどくさいし、コミットしずらくなるのが懸念かな。
+
+### GitHub Actions
+
+これは `release.yml`に書いてあるとおり。  
+master にマージされたタイミングで走る。
+
+### メジャーリリース方法
+
+`BREAKING CHANGE`を含むコミットを作成して push すればいいらしい。
+
 [ref](https://dev.classmethod.jp/articles/github-actions-semantic-release-sample/)
-
-## 上記のサイトだとうまくいかなかった
-
-commitLint のところがうまく動かなかった。。。。
-
-commit 単位ではなく PR 単位の方が管理しやすいのでは？
-
-workflow を修正すればいける？？
-PR のタイトルと本文からリリースノートを構成したい。
-
-## commit で管理する方法
 
 [ref](https://zenn.dev/ucwork/articles/41cf2f20ecd2a0)
