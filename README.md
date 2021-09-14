@@ -35,7 +35,8 @@ husky は commit する時に上記のルールにしたがっていないと怒
 ### GitHub Actions
 
 これは `release.yml`に書いてあるとおり。  
-master にマージされたタイミングで走る。
+master にマージされたタイミングで走る。  
+[release](https://github.com/jin-331/auto-github_release/releases) にいい感じに、リリースノートを記述してくれる。
 
 ### メジャーリリース方法
 
