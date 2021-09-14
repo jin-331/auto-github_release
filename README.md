@@ -1,5 +1,7 @@
 # GitHub Actions と semantic-release でリリースノートを自動作成する
 
+せっかくだから GitHub の release 機能で、アプリを[セマンティックバージョン](https://semver.org/lang/ja/)で管理したい。それっぽい。
+
 ### [semantic-release](https://github.com/semantic-release/semantic-release)とは
 
 GitHub と連携するとタグとリリースノートを自動で作成してくれる。元々は、npm パッケージのバージョン管理や npm repository への publish を自動で行うためのツールらしい。  
@@ -37,7 +39,9 @@ master にマージされたタイミングで走る。
 
 ### メジャーリリース方法
 
-`BREAKING CHANGE`を含むコミットを作成して push すればいいらしい。
+`BREAKING CHANGE`を含むコミットを作成して push する。  
+このコミットはチームで相談して入れる方がいい。  
+それか、空コミットで最後に入れるか。または、github から手動でバージョンをあげるか。
 
 [ref](https://dev.classmethod.jp/articles/github-actions-semantic-release-sample/)
 
