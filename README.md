@@ -47,3 +47,6 @@ master にマージされたタイミングで走る。
 [ref](https://dev.classmethod.jp/articles/github-actions-semantic-release-sample/)
 
 [ref](https://zenn.dev/ucwork/articles/41cf2f20ecd2a0)
+
+curl -u ":jin-331" "https://api.github.com/repos/:owner/:repos/issues?state=open" |\
+ jq -r '["number","title","html_url"], (.[] | [.number,.title,.html_url]) | @csv' > issues.csv
