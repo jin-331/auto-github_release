@@ -1,6 +1,6 @@
 # GitHub Actions と semantic-release でリリースノートを自動作成する
 
-せっかくだから GitHub の [release](https://github.com/jin-331/auto-github_release/releases) 機能で、アプリを[セマンティックバージョン](https://semver.org/lang/ja/)で管理したい。それっぽい。
+せっかくだから GitHub の [release](https://github.com/jin-331/auto-github_release/releases) 機能で、アプリを[セマンティックバージョン](https://semver.org/lang/ja/)で管理したい。  それっぽい。
 
 ### [semantic-release](https://github.com/semantic-release/semantic-release)とは
 
