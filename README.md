@@ -5,7 +5,7 @@
 ### [semantic-release](https://github.com/semantic-release/semantic-release)とは
 
 GitHub と連携するとタグとリリースノートを自動で作成してくれる。元々は、npm パッケージのバージョン管理や npm repository への publish を自動で行うためのツールらしい。  
-private repo があがっちゃうことはない？？？
+private repo があがっちゃうことはない？？
 
 ### commitlint & husky
 
